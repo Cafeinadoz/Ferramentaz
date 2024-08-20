@@ -1,0 +1,20 @@
+@import url(./styles/header.css);
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --laranja: #EB9B00;
+    --azul: #009eff;
+    --font-principal: "Poppins";
+    --font-secundaria: "Josefin Sans"
+    --preto: #000000;
+    --cinza: #474646
+    --cinza-claro: ##858585
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
